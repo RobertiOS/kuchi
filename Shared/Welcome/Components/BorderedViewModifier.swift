@@ -13,6 +13,7 @@ struct BorderedViewModifier: ViewModifier {
             )
             .shadow(color: Color.gray.opacity(0.4),
                     radius: 3, x: 1, y: 2)
+            .cornerRadius(8)
     }
 }
 
