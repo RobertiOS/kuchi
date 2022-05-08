@@ -18,7 +18,6 @@
 		57EF341324E89F92004ABEB2 /* KuchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF340024E89F91004ABEB2 /* KuchiApp.swift */; };
 		57EF341424E89F92004ABEB2 /* KuchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF340024E89F91004ABEB2 /* KuchiApp.swift */; };
 		E16F629928263E82002CECC3 /* HorizontallyAlignedLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F629828263E82002CECC3 /* HorizontallyAlignedLabelStyle.swift */; };
-		E16F629B2826413D002CECC3 /* Profile in Resources */ = {isa = PBXBuildFile; fileRef = E16F629A2826413C002CECC3 /* Profile */; };
 		E16F629E282641F1002CECC3 /* WelcomeBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F629D282641F1002CECC3 /* WelcomeBackgroundImage.swift */; };
 		E16F629F282641F1002CECC3 /* WelcomeBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F629D282641F1002CECC3 /* WelcomeBackgroundImage.swift */; };
 		E16F62A128264280002CECC3 /*  LogoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F62A028264280002CECC3 /*  LogoImage.swift */; };
@@ -29,6 +28,12 @@
 		E16F62A82826438A002CECC3 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F62A62826438A002CECC3 /* RegisterView.swift */; };
 		E16F62AA28276D6E002CECC3 /* BorderedViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F62A928276D6E002CECC3 /* BorderedViewModifier.swift */; };
 		E16F62AB28276D6E002CECC3 /* BorderedViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F62A928276D6E002CECC3 /* BorderedViewModifier.swift */; };
+		E1A8DD562828261900ADDB91 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8DD532828261900ADDB91 /* UserManager.swift */; };
+		E1A8DD572828261900ADDB91 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8DD532828261900ADDB91 /* UserManager.swift */; };
+		E1A8DD582828261900ADDB91 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8DD542828261900ADDB91 /* Settings.swift */; };
+		E1A8DD592828261900ADDB91 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8DD542828261900ADDB91 /* Settings.swift */; };
+		E1A8DD5A2828261900ADDB91 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8DD552828261900ADDB91 /* Profile.swift */; };
+		E1A8DD5B2828261900ADDB91 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A8DD552828261900ADDB91 /* Profile.swift */; };
 		E1B16174280BBE7D00A138BA /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B16173280BBE7D00A138BA /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,12 +49,14 @@
 		57EF341124E89F92004ABEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57EF341224E89F92004ABEB2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		E16F629828263E82002CECC3 /* HorizontallyAlignedLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontallyAlignedLabelStyle.swift; sourceTree = "<group>"; };
-		E16F629A2826413C002CECC3 /* Profile */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Profile; path = "../../../../../06-controls-and-user-input/projects/starter/Kuchi/Shared/Profile"; sourceTree = "<group>"; };
 		E16F629D282641F1002CECC3 /* WelcomeBackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBackgroundImage.swift; sourceTree = "<group>"; };
 		E16F62A028264280002CECC3 /*  LogoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " LogoImage.swift"; sourceTree = "<group>"; };
 		E16F62A3282642F7002CECC3 /* WelcomeMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeMessageView.swift; sourceTree = "<group>"; };
 		E16F62A62826438A002CECC3 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		E16F62A928276D6E002CECC3 /* BorderedViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedViewModifier.swift; sourceTree = "<group>"; };
+		E1A8DD532828261900ADDB91 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		E1A8DD542828261900ADDB91 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		E1A8DD552828261900ADDB91 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		E1B16173280BBE7D00A138BA /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,7 +109,7 @@
 		57EF33FF24E89F91004ABEB2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				E16F629A2826413C002CECC3 /* Profile */,
+				E1A8DD4C2828254600ADDB91 /* Profile */,
 				E1B16172280BBE3F00A138BA /* Welcome */,
 				57578FA724E9D943003465A4 /* HomeView.swift */,
 				57EF340024E89F91004ABEB2 /* KuchiApp.swift */,
@@ -146,6 +153,16 @@
 				E16F62A928276D6E002CECC3 /* BorderedViewModifier.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		E1A8DD4C2828254600ADDB91 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				E1A8DD552828261900ADDB91 /* Profile.swift */,
+				E1A8DD542828261900ADDB91 /* Settings.swift */,
+				E1A8DD532828261900ADDB91 /* UserManager.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		E1B16172280BBE3F00A138BA /* Welcome */ = {
@@ -237,7 +254,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E16F629B2826413D002CECC3 /* Profile in Resources */,
 				57578FE424E9D943003465A4 /* Preview Assets.xcassets in Resources */,
 				57578FE824E9D943003465A4 /* jp.json in Resources */,
 				57578FE224E9D943003465A4 /* Assets.xcassets in Resources */,
@@ -262,7 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E16F629E282641F1002CECC3 /* WelcomeBackgroundImage.swift in Sources */,
+				E1A8DD5A2828261900ADDB91 /* Profile.swift in Sources */,
 				E16F62A128264280002CECC3 /*  LogoImage.swift in Sources */,
+				E1A8DD562828261900ADDB91 /* UserManager.swift in Sources */,
+				E1A8DD582828261900ADDB91 /* Settings.swift in Sources */,
 				57EF341324E89F92004ABEB2 /* KuchiApp.swift in Sources */,
 				E1B16174280BBE7D00A138BA /* WelcomeView.swift in Sources */,
 				E16F629928263E82002CECC3 /* HorizontallyAlignedLabelStyle.swift in Sources */,
@@ -278,11 +297,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				57EF341424E89F92004ABEB2 /* KuchiApp.swift in Sources */,
+				E1A8DD5B2828261900ADDB91 /* Profile.swift in Sources */,
 				57578FDF24E9D943003465A4 /* HomeView.swift in Sources */,
 				E16F629F282641F1002CECC3 /* WelcomeBackgroundImage.swift in Sources */,
 				E16F62AB28276D6E002CECC3 /* BorderedViewModifier.swift in Sources */,
 				E16F62A82826438A002CECC3 /* RegisterView.swift in Sources */,
 				E16F62A5282642F7002CECC3 /* WelcomeMessageView.swift in Sources */,
+				E1A8DD592828261900ADDB91 /* Settings.swift in Sources */,
+				E1A8DD572828261900ADDB91 /* UserManager.swift in Sources */,
 				E16F62A228264280002CECC3 /*  LogoImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
