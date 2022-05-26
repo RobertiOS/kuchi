@@ -8,7 +8,7 @@ struct KuchiApp: App {
     }
     var body: some Scene {
         WindowGroup {
-            RegisterView()
+            DateView()
                 .environmentObject(userManager)
         }
     }
